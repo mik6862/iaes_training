@@ -14,4 +14,5 @@ def Main():
     x=getUser("World")
     hello(x)
 
-Main()
+if __name__=='__main__':
+    Main()
